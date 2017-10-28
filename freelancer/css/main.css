@@ -1,0 +1,575 @@
+	/*
+	 * Estilos de tu proyecto
+	 */
+	 * {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	*:before, *:after {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	body {
+		margin: 0 auto;
+	}
+
+	.container {
+		width: 1150px;
+		margin-right: auto;
+		margin-left: auto;
+		padding-left: 14px;
+		padding-right: 14px;
+	}
+
+	.container:before, .container:after {
+		content: " ";
+		display: table;
+	}
+
+	*:before, *:after {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	/*Primero  definimos los parametros de la barra superior*/
+
+	h3 {
+		display: inline-block;
+	}
+
+	.menu {
+	  overflow: hidden;
+	  background-color: #2c3e50;
+	  position: fixed;
+	  top: 0;
+	  width: 100%;
+	  height: 17%;
+	  color: white;
+	}
+
+	.menu h1 {
+		font-family: Montserrat;
+		font-size: 3px
+		margin-top: 195px;
+		margin-left: 90px;
+		display: inline-block;
+	}
+
+	.menu h3 {
+		font-family: Montserrat;
+		margin top: 65px;
+		margin-left: 480px;
+		display:inline-block;
+		font-size: 17px;
+	}
+
+	.menu {
+		display: inline-block;
+		z-index: 1;
+	}
+
+	/*Incluyendo el hover que cambiara los titulos de color*/
+
+	.src:hover {
+		background-color:#2c3e50;
+	}
+
+	#portafolio {
+		display: inline-block;
+		margin-top: 30px;
+	}
+
+	#about {
+		display: inline-block;
+	}
+
+	#contacto {
+		display: inline-block;
+	}
+
+	#segundotitulo {
+		font-size: 75px;
+	}
+
+	.parte1 {
+		text-align: center;
+	}
+
+
+	#portafolio:hover {
+		cursor: pointer;
+		color: #18bc9c;
+	}
+
+	#about:hover {
+		cursor: pointer;
+		color: #18bc9c
+	}
+
+	#contacto:hover {
+		cursor: pointer;
+		color: #18bc9c;
+	}
+
+	#barrita3{
+	    position: absolute;
+	    background-color: #2c3e50;
+	    width: 102px;
+	    height:5px;
+	    top:965px;
+	    left:519px;
+	}
+
+	/*Configuramos las dimensiones de la primera parte*/
+
+	body {
+		background-color: #18bc9c;
+	}
+
+	/*Incluyendo la el titulo START BOOTSTRAP */
+
+	body h1 {
+		color: white;
+		font-family: Montserrat;
+		text-align:center;
+	}
+
+	/*Con sus respectivas rayas y estrellas */
+
+	#barrita1{
+	    position: absolute;
+	    background-color: #FFFFFF ;
+	    width: 102px;
+	    height:5px;
+	    top:656px;
+	    left:519px;
+	}
+
+	#estrella{
+	    position: absolute;
+	    color: #FFFFFF ;
+	    top:437px;
+	    left:630px;
+	    font-size: 30px;
+	}
+
+	#barrita2{
+	    position: absolute;
+	    background-color: #FFFFFF ;
+	    width:102px;
+	    height:5px;
+	    top:655px;
+	    left:670px;
+	}
+
+	/*COnfiguramos el subtitulo "Web Developer - Graphic Artist - User Experience Designer" */
+
+	#texto22 {
+		font-family: Lato;
+		font-size: 26px;
+		color: white;
+		text-align:center;
+		padding-bottom: 50px;
+	}
+
+	/*Ahora configuramos la siguiente seccion*/
+
+	#parte2 {
+		background: white;
+		color: #2c3e50;
+		font-size: 24px;
+		width: 100%;
+	}
+
+	/*Incluyendo su titulo PORTOFOLIO*/
+
+	#parte2 h1 {
+		color: black;
+		text-align: float;
+		padding-top: 80px;
+		background-color: white;
+		width: 100%;
+	}
+
+	p {
+		display: float;
+		margin-top: 200px;
+	}
+
+	/*Y su respectivas rayas y estrellas*/
+
+	#estrella2 {
+		text-align: center;
+		color:#2c3e50;
+		position: absolute;
+		font-size: 30px;
+	    top:755px;
+	    left:630px;
+	    }
+
+	#barrita4{
+	    position: absolute;
+	    background-color: #2c3e50;
+	    width:102px;
+	    height:5px;
+	    top:965px;
+	    left:670px;
+	}
+
+	/*Ahroa configuramos la galeria */
+
+	#galeria {
+		padding-top:10px;
+		background-color: white;
+		width: 100%;
+		padding-left: 70px;
+		padding-bottom: 60px;
+	}
+
+	/*Incluyendo detalles sobre las imagenes de la galeria*/
+
+	#galeria img {
+		column-count: 3;
+		display:block;
+		width: auto;
+		height: auto;
+		width: 370px;
+		height: 260px;
+		display: inline-block;
+		margin-left: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-right: 10px;
+	}
+
+	/*Ahora configuamos la sigueinte parte*/
+
+	#parte3 {
+		width: 100%;
+		background-color: #18bc9c;
+		height: 700px;
+		}
+
+	/*Agregamos el titulo de esta seccion ABOUT */
+	#parte3 h1 {
+		background-color: #18bc9c;
+		color:white;
+		font-size: Montserrat-Bold.ttf
+	}
+
+	/*con sus respectivas barras y estrellas */
+
+	#barrita5{
+	    position: absolute;
+	    background-color: #FFFFFF ;
+	    width: 102px;
+	    height:5px;
+	    top:1826px;
+	    left:519px;
+	}
+
+	#estrella3{
+	    position: absolute;
+	    color: #FFFFFF ;
+	    top:1607px;
+	    left:630px;
+	    font-size: 30px;
+	}
+
+	#barrita6{
+	    position: absolute;
+	    background-color: #FFFFFF ;
+	    width:102px;
+	    height:5px;
+	    top:1825px;
+	    left:670px;
+	}
+
+
+	.container:after {
+		clear: both;
+	}
+
+	/*Definimos las dimensiones de la siguiente seccion*/
+
+
+
+	.parrafoderecha {
+		display: inline-block;
+	}
+
+
+	/*Agregamos el texto*/
+
+	.parrafoizquierda {
+		display: inline-block;
+
+	}
+
+	/*configuramos especificamente cada parrafo*/
+	.parrafoderecha p {
+		margin-top: 10px;
+		font-family: Lato;
+		margin-left: 90px;
+		width: 350px;
+		height: 300px;
+		color: white;
+		font-size: 20px;
+		line-height: 1.7;
+		vertical-align: text-top;
+	}
+
+	.parrafoizquierda p {
+		margin-top: 39px;
+		font-family: Lato;
+		margin-left: 295px;
+		width: 350px;
+		height: 300px;
+		color: white;
+		font-size: 20px;
+		line-height: 1.7;
+	}
+
+	/*Agregamos el boton de descargas */
+	.buttonDownload {
+		display: inline-block;
+		position: relative;
+		padding: 19px 17px;
+	  
+		background-color: #18bc9c;
+		color: white;
+		border: solid; white; 1px;
+	  
+		font-family: sans-serif;
+		text-decoration: none;
+		font-size: 0.9em;
+		text-align: center;
+		text-indent: 15px;
+		position: float;
+		left: 499px;
+		bottom: 120px;
+	}
+
+	/*Definimos las dimensiones de la siguiente seccion*/
+
+	#parte4 {
+		width: 100%;
+		background-color: white;
+		height: 800px;
+		}
+
+	/*Agregamos el titulo de esta seccion "CONTACT ME" */
+
+	#parte4 h1 {
+		color: #2c3e50;
+		font-size: 48px;
+		background-color: white;
+	} 
+
+	/*con sus respectivas barras y estrellas */
+	#barrita7{
+	    position: absolute;
+	    width: 102px;
+	    height:5px;
+	    top:2518px;
+	    left:519px;
+	    background-color: #2c3e50;
+	}
+
+	#estrella4{
+	    position: absolute;
+	    top:2299px;
+	    left:630px;
+	    font-size: 34px;
+	    color: #2c3e50;  
+	}
+
+	#barrita8{
+	    position: absolute;
+	    width:102px;
+	    height:5px;
+	    top:2518px;
+	    left:670px;
+	    background-color:#2c3e50;
+	}
+
+	/*Agregamos la cajita de mensajes*/
+
+	.formulario {
+		margin-left: 280px;
+	}
+
+	.cajita{
+	    height: 35px;
+	    width: 740px;  /*outline-color: #FFF;*/
+	    font-family: 'Lato', sans-serif; 
+	    font-size: 23px;
+	    font-weight: bolder;
+	    border-radius: 5px; 
+	    border-radius: 0;
+	    border-top: 0;
+	    border-right: 0;
+	    border-bottom: 1px solid #9F9F9FFF;
+	    border-left: 0;
+	    padding: 45px;
+	    padding-left: 0px;
+	}
+
+	#pal{
+	    padding-bottom: 185px;
+	}
+
+	.button{
+		margin-left: 280px;
+	    height: 40px;
+	    width: 80px;
+	    background: #18bc9c ;
+	    border-style: none;
+	    border-color: #18bc9c ;
+	    border-radius: 5px;
+	    color: #FFF;
+	    font-family: 'Lato', sans-serif; 
+	    font-weight: bolder;
+	    font-size: 20px;
+	    text-shadow:none;
+	    padding-bottom: 5px;
+	    margin-top: 15px;
+	    margin-right: 679px;
+	    margin-bottom: 9px;
+	    line-height: 1.7;
+	}
+
+	/*Definimos las dimensiones de las ultima seccion*/
+
+	#final {
+
+		width: 100%;
+		background-color: #2c3e50;
+		height: 370px;
+	}
+
+	#final h1 {
+		color: white;
+		background-color: #2c3e50;
+		font-size: 28px;
+	}
+
+	/*Configuramos cada seccion del footer*/
+
+
+	.direccion {
+		margin-top: 0;
+		font-family: Lato;
+		margin-left: 130px;
+		width: 230px;
+		height: 150px;
+		color: white;
+		font-size: 19px;
+		line-height: 1.7;
+		text-align: center;
+		vertical-align: text-top;
+	}
+
+	.freelancerabout {
+		text-align: center;
+		margin-left: 850px;
+		width: 340px;
+		color: white;
+		line-height: 1.7;
+		font-size: 19px;
+		margin-top: -370px;
+		font-family: Lato;
+	}
+
+	/*Especialmente las redes sociales*/
+
+	.redessociales {
+		display: inline-block;
+	}
+
+
+	/*Cada red social tiene su propio icono y hover*/
+
+	#facebook {
+		position: absolute;
+		margin-left: 490px;
+		margin-top: -153px;
+		font-size: 20px;
+		color: white;
+	}
+
+	.fa-facebook:hover {
+		background-color: #2c3e50;
+		color: #18bc9c ;
+		
+	}
+
+	#googlemas {
+		position: absolute;
+		margin-left: 540px;
+		margin-top: -153px;
+		font-size: 20px;
+		color: white;
+	}
+
+	.fa-google-plus:hover {
+		background-color: #2c3e50;
+		color: #18bc9c ;	
+	}
+
+
+	#twitter {
+		position: absolute;
+		margin-left: 590px;
+		margin-top: -153px;
+		font-size: 20px;
+		color: white;
+	}
+
+	.fa-twitter:hover {
+		background-color: #2c3e50;
+		color: #18bc9c ;
+	}
+
+
+	#linkedin {
+		position: absolute;
+		margin-left: 640px;
+		margin-top: -153px;
+		font-size: 20px;
+		color: white;
+	}
+
+	.fa-linkedin:hover {
+		background-color: #2c3e50;
+		color: #18bc9c ;
+	}
+
+	#pelotaa {
+		position: absolute;
+		margin-left: 690px;
+		margin-top: -153px;
+		font-size: 20px;
+		color: white;
+	}
+
+	.fa-globe:hover {
+		background-color: #2c3e50;
+		color: #18bc9c ;	
+	}
+
+	/*Se cierra con la linea final del footer*/
+
+	div.finalfooter {
+		color: white;
+		font-size: 15px;
+		font-family: Montserrat;
+		margin-left: 510px;
+		margin-top: 100px;
+	}
+
